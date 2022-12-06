@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'montserrat', sans-serif;
+  background-color: rgb(212, 219, 77);
+  background-image: url('image/cloudy_sky.jpg');
+  background-size: cover;
+  background-position: top center;
+}
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+}
+
+header input {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 0px 16px 0px 16px;
+  border-bottom: 3px solid gray;
+
+  color: #313131;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+}
+
+header input:focus {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+main {
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.img
+{
+  
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-right: 100px;
+}
+.img1
+{
+  
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-right: 100px;
+}
+.img2
+{
+  
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-right: 340px;
+}
+.img3
+{
+  
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-right: 170px;
+}
+
+.location .city {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.location .date {
+  color: #fff;
+  font-size: 16px;
+}
+
+.current .temp {
+  color: #fff;
+  font-size: 102px;
+  font-weight: 900;
+  margin: 30px 0px;
+  text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
+  /* background-image:url('image/clearsky.jpg') ; */
+  border-radius: 20px;
+}
+.current .temp span {
+  font-weight: 500;
+}
+
+
+.current .pressure  {
+  color: #fff;
+  font-size: 102px;
+  font-weight: 900;
+  margin: 30px 0px;
+  text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
+}
+.current .pressure span {
+  font-weight: 200;
+}
+
+
+
+
+.current .weather {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+.current .hi-low {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}
